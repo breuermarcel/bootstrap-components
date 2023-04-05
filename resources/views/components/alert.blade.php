@@ -1,8 +1,6 @@
 @props([
-    'icon' => null,
-    'label' => null,
     'color' => 'info',
-    'dismissible' => true,
+    'dismissible' => false,
 ])
 
 @php
@@ -12,9 +10,9 @@
 @endphp
 
 <div {{ $attributes }}>
-    {{ $label ?? $slot }}
+    {{ $slot }}
 
     @if ($dismissible)
-        <x-bs::close dismiss="alert" />
+        <x-bs-components::close dismiss="alert" />
     @endif
 </div>
