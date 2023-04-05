@@ -2,11 +2,8 @@
 
 ## Installation
 ```bash
-git submodule add git@github.com:breuermarcel/bootstrap-components.git
+git clone git@github.com:breuermarcel/bootstrap-components.git
 ```
 ```bash
-git submodule init
-```
-```bash
-git submodule update
+composer require breuermarcel/bootstrap-components
 ```
