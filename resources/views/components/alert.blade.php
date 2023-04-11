@@ -1,4 +1,5 @@
 @props([
+    'icon' => null,
     'color' => 'info',
     'dismissible' => false,
 ])
@@ -10,6 +11,8 @@
 @endphp
 
 <div {{ $attributes }}>
+    <x-bs-components::icon :name="$icon"/>
+
     {{ $slot }}
 
     @if ($dismissible)
