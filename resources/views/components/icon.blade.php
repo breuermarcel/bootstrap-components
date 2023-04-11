@@ -1,13 +1,10 @@
 @props([
-    'name' => null,
-    'color' => null
+    'name' => null
 ])
-
 
 @php
     $attributes = $attributes->class([
-        'bi bi-' . $name,
-        $color !== null ?? 'text-' . $color
+        'bi bi-' . $name
     ])->merge([
         //
     ]);
