@@ -11,11 +11,11 @@
 @endphp
 
 <div {{ $attributes }}>
-    <x-bs-components::icon :name="$icon"/>
+    <x-bc::icon :name="$icon"/>
 
     {{ $slot }}
 
     @if ($dismissible)
-        <x-bs-components::close dismiss="alert"/>
+        <x-bc::close dismiss="alert"/>
     @endif
 </div>

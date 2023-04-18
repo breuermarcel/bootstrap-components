@@ -12,7 +12,7 @@
 @endphp
 
 <div>
-    <x-bs-components::label :label="$label"/>
+    <x-bc::label :label="$label"/>
 
     <div class="form-check {{ $switch ? 'form-switch' : '' }}">
         <input {{ $attributes }}>

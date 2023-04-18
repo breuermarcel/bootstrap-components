@@ -1,5 +1,5 @@
 <?php
 
 Route::get("/", function () {
-    return view("bs-components::showcase");
+    return view("bc::showcase");
 })->name("showcase");

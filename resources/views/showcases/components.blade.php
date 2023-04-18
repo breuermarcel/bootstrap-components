@@ -1,10 +1,10 @@
 <h2 id="item-4">Components</h2>
 
 <h3 id="item-4-1">Alerts</h3>
-<x-bs-components::alert dismissible icon="info-circle-fill" color="warning">Alert 123</x-bs-components::alert>
+<x-bc::alert dismissible icon="info-circle-fill" color="warning">Alert 123</x-bc::alert>
 
 <h3 id="item-4-2">Badges</h3>
-<x-bs-components::badge icon="info-circle-fill" color="danger">Badge</x-bs-components::badge>
+<x-bc::badge icon="info-circle-fill" color="danger">Badge</x-bc::badge>
 
 <h3 id="item-4-3">Buttons</h3>
 <p>Available variables are:</p>
@@ -19,15 +19,15 @@
     <li>title</li>
 </ul>
 <h4>Button Colors</h4>
-<x-bs-components::button color="primary">Button Primary</x-bs-components::button>
-<x-bs-components::button color="success">Button Success</x-bs-components::button>
-<x-bs-components::button color="danger">Button Danger</x-bs-components::button>
+<x-bc::button color="primary">Button Primary</x-bc::button>
+<x-bc::button color="success">Button Success</x-bc::button>
+<x-bc::button color="danger">Button Danger</x-bc::button>
 <h4>Button Size</h4>
-<x-bs-components::button size="lg" color>Button Large</x-bs-components::button>
-<x-bs-components::button size="md">Button Normal</x-bs-components::button>
-<x-bs-components::button size="sm">Button Small</x-bs-components::button>
+<x-bc::button size="lg" color>Button Large</x-bc::button>
+<x-bc::button size="md">Button Normal</x-bc::button>
+<x-bc::button size="sm">Button Small</x-bc::button>
 <h4>Link as Button</h4>
-<x-bs-components::button route="bootstrap-components.showcase">Link</x-bs-components::button>
+<x-bc::button route="bootstrap-components.showcase">Link</x-bc::button>
 
 <h3 id="item-4-4">Cards</h3>
 
@@ -50,8 +50,8 @@
 <h3 id="item-4-13">Tooltip</h3>
 
 <h3  id="item-4-14">Code</h3>
-<x-bs-components::code>
+<x-bc::code>
 &lt;article&gt;
     &lt;h1&gt;Article Heading&lt;/h1&gt;
 &lt;/article&gt;
-</x-bs-components::code>
+</x-bc::code>

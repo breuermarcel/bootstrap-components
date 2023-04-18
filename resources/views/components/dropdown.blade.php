@@ -20,7 +20,7 @@
 
 <div class="dropdown d-inline-block">
     <button {{ $attributes }}>
-        <x-bs-components::icon :name="$icon"/>
+        <x-bc::icon :name="$icon"/>
 
         {{ $label }}
     </button>

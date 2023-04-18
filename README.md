@@ -11,5 +11,5 @@ composer require breuermarcel/bootstrap-components
 ## Usage
 
 ```blade
-<x-bs-components::container></x-bs-components::container>
+<x-bc::container></x-bc::container>
 ```
