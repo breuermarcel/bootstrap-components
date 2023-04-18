@@ -11,3 +11,8 @@
 &lt;x-bc::container size="xl"&gt;100% wide until extra large breakpoint&lt;/x-bc::container&gt;
 &lt;x-bc::container size="xxl"&gt;100% wide until extra extra large breakpoint&lt;/x-bc::container&gt;
 </x-bc::code>
+
+<p>To have a fluid container, you can use:</p>
+<x-bc::code>
+    &lt;x-bc::container fluid &gt;100% wide&lt;/x-bc::container&gt;
+</x-bc::code>
