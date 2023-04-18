@@ -13,11 +13,7 @@
 
 @php
     if ($route) {
-        if ($routeParams) {
-            $href = route($route, $routeParams);
-        } else {
-            $href = route($route);
-        }
+        $href = $routeParams ? route($route, $routeParams) : route($route);
     }
 
     $attributes = $attributes->class(['btn btn-' . $color, 'btn-' . $size => $size, $stretchedLink ? 'stretched-link' : null])->merge([

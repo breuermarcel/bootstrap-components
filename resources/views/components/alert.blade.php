@@ -16,6 +16,6 @@
     {{ $slot }}
 
     @if ($dismissible)
-        <x-bs-components::close dismiss="alert" />
+        <x-bs-components::close dismiss="alert"/>
     @endif
 </div>
