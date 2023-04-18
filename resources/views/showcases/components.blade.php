@@ -32,6 +32,9 @@
 <h3 id="item-4-4">Cards</h3>
 
 <h3 id="item-4-5">Collapse</h3>
+<x-bc::collapse button="Button Name">
+    <p>You can insert everything right here.</p>
+</x-bc::collapse>
 
 <h3 id="item-4-6">Dropdowns</h3>
 
