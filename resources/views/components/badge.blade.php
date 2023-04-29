@@ -10,7 +10,7 @@
 @endphp
 
 <span {{ $attributes }}>
-    <x-bs-components::icon :name="$icon"/>
+    <x-bc::icon :name="$icon"/>
 
     {{ $slot }}
 </span>

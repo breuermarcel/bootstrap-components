@@ -9,7 +9,7 @@ class BootstrapComponentsServiceProvider extends ServiceProvider
 {
     public function boot()
     {
-        $this->loadViewsFrom(__DIR__ . '/../../resources/views', 'bs-components');
+        $this->loadViewsFrom(__DIR__ . '/../../resources/views', 'bc');
 
         $this->registerRoutes();
     }

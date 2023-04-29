@@ -1,9 +1,10 @@
 @props([
-    'size' => null,
+    'fluid' => null,
+    'size' => null
 ])
 
 @php
-    $attributes = $attributes->class([$size ? 'container-' . $size : 'container'])->merge([
+    $attributes = $attributes->class([$fluid ? 'container-fluid' : ($size ? 'container-' . $size : 'container')])->merge([
         //
     ]);
 @endphp

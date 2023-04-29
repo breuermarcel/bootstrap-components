@@ -19,11 +19,11 @@
 
 <nav class="navbar bg-body-tertiary mb-5">
     <div class="container-fluid">
-        <a class="navbar-brand text-capitalize" href="#">{{ config("bootstrap-components.name") }}</a>
+        <a class="navbar-brand text-capitalize" href="{{ route(config('bootstrap-components.routing.as') . 'showcase') }}">{{ config("bootstrap-components.name") }}</a>
     </div>
 </nav>
 
-<x-bs-components::container>
+<x-bc::container>
     <div class="row">
         <div class="col-4">
             <nav id="navbar-main" class="h-100 flex-column align-items-stretch pe-4 border-end">
@@ -74,17 +74,17 @@
         <div class="col-8">
             <div data-bs-spy="scroll" data-bs-target="#navbar-main" data-bs-smooth-scroll="true" tabindex="0"
                  style="height:800px;overflow:auto;">
-                @include("bs-components::showcases.layout")
+                @include("bc::showcases.layout")
                 <div class="border my-5"></div>
-                @include("bs-components::showcases.content")
+                @include("bc::showcases.content")
                 <div class="border my-5"></div>
-                @include("bs-components::showcases.forms")
+                @include("bc::showcases.forms")
                 <div class="border my-5"></div>
-                @include("bs-components::showcases.components")
+                @include("bc::showcases.components")
             </div>
         </div>
     </div>
-</x-bs-components::container>
+</x-bc::container>
 
 </body>
 </html>

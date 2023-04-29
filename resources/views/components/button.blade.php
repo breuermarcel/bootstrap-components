@@ -6,6 +6,7 @@
     'routeParams' => null,
     'href' => null,
     'dismiss' => null,
+    'target' => null,
     'toggle' => null,
     'stretchedLink' => null,
     'title' => null,
@@ -21,6 +22,7 @@
         'href' => $href,
         'data-bs-dismiss' => $dismiss,
         'data-bs-toggle' => $toggle,
+        'data-bs-target' => '#' . $target,
         'title' => $title
     ]);
 @endphp
