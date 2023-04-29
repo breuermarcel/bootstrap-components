@@ -13,3 +13,7 @@ composer require breuermarcel/bootstrap-components
 ```blade
 <x-bs-components::container></x-bs-components::container>
 ```
+
+### To-Do
+- [ ] Add package.json and compile scss/js
+- [ ] Include bootstrap by default
