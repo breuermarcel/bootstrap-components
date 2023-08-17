@@ -1,19 +1,13 @@
 # Bootstrap Components
 
 ## Installation
+
+Clone git repository:
 ```bash
 git clone git@github.com:breuermarcel/bootstrap-components.git
 ```
+
+Require package:
 ```bash
 composer require breuermarcel/bootstrap-components
 ```
-
-## Usage
-
-```blade
-<x-bc::container></x-bc::container>
-```
-
-### To-Do
-- [ ] Add package.json and compile scss/js
-- [ ] Include bootstrap by default
