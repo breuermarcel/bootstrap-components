@@ -1,5 +1,5 @@
 <?php
 
-Route::get("/", function () {
-    return view("bc::showcase");
-})->name("showcase");
+Route::get('/', function () {
+    return view('bc::showcase');
+})->name('showcase');
