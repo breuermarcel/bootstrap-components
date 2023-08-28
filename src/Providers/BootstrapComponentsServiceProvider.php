@@ -9,14 +9,14 @@ class BootstrapComponentsServiceProvider extends ServiceProvider
 {
     public function boot()
     {
-        $this->loadViewsFrom(__DIR__ . '/../../resources/views', 'bc');
+        $this->loadViewsFrom(__DIR__.'/../../resources/views', 'bc');
 
         $this->registerRoutes();
     }
 
     public function register()
     {
-        $this->mergeConfigFrom(__DIR__ . '/../../config/bootstrap-components.php', 'bootstrap-components');
+        $this->mergeConfigFrom(__DIR__.'/../../config/bootstrap-components.php', 'bootstrap-components');
     }
 
     private function routeConfiguration(): array
@@ -31,7 +31,7 @@ class BootstrapComponentsServiceProvider extends ServiceProvider
     private function registerRoutes()
     {
         Route::group($this->routeConfiguration(), function () {
-            $this->loadRoutesFrom(__DIR__ . '/../routes.php');
+            $this->loadRoutesFrom(__DIR__.'/../routes.php');
         });
     }
 }
