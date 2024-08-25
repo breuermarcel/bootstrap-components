@@ -3,3 +3,8 @@
 .AppleDouble
 .LSOverride
 .Trashes
+/.idea
+
+# Laravel
+/node_modules
+/dist

@@ -1,0 +1,34 @@
+{
+  "name": "bootstrap-components",
+  "version": "1.0.0",
+  "description": "Bootstrap Blade Components for Laravel.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/breuermarcel/bootstrap-components.git"
+  },
+  "keywords": [
+    "breuermarcel",
+    "bootstrap",
+    "components"
+  ],
+  "authors": [
+    {
+      "name": "Marcel Breuer",
+      "email": "breuer.marcel@outlook.com"
+    }
+  ],
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "axios": "^1.6.8",
+    "bootstrap": "^5.3.3",
+    "sass": "^1.72.0",
+    "vite": "^5.2.7",
+    "laravel-vite-plugin": "^1.0.2"
+  },
+  "type": "module"
+}
