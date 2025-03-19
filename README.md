@@ -21,9 +21,9 @@ composer require breuermarcel/bootstrap-components
 ### Alert
 
 ```blade
-<x-alert color="success" dismissible icon="check-circle">
+<x-bc::alert color="success" dismissible icon="check-circle">
     Successfully saved!
-</x-alert>
+</x-bc::alert>
 ```
 
 | Attribute     | Description                                  | Example value                          |
@@ -37,7 +37,7 @@ composer require breuermarcel/bootstrap-components
 ### Badge
 
 ```blade
-<x-badge type="primary">New</x-badge>
+<x-bc::badge type="primary">New</x-bc::badge>
 ```
 
 | Attribute | Description          | Example value                          |
@@ -49,9 +49,9 @@ composer require breuermarcel/bootstrap-components
 ### Button
 
 ```blade
-<x-button color="primary" size="lg" href="https://example.com" target="_blank" title="Go to example">
+<x-bc::button color="primary" size="lg" href="https://example.com" target="_blank" title="Go to example">
     Click me
-</x-button>
+</x-bc::button>
 ```
 
 | Attribute       | Description                                             | Example value                          |
@@ -73,7 +73,7 @@ composer require breuermarcel/bootstrap-components
 ### Checkbox (`check`)
 
 ```blade
-<x-check name="terms" label="Accept Terms & Conditions" switch checked />
+<x-bc::check name="terms" label="Accept Terms & Conditions" switch checked />
 ```
 
 | Attribute | Description                             | Example value               |
@@ -88,7 +88,7 @@ composer require breuermarcel/bootstrap-components
 ### Close
 
 ```blade
-<x-close />
+<x-bc::close />
 ```
 
 | Attribute | Description           | Example value |
@@ -100,9 +100,9 @@ composer require breuermarcel/bootstrap-components
 ### Code
 
 ```blade
-<x-code>
+<x-bc::code>
     npm run dev
-</x-code>
+</x-bc::code>
 ```
 
 | Attribute | Description                           | Example value |
@@ -114,9 +114,9 @@ composer require breuermarcel/bootstrap-components
 ### Collapse
 
 ```blade
-<x-collapse button="Show more">
+<x-bc::collapse button="Show more">
     Collapsible content goes here.
-</x-collapse>
+</x-bc::collapse>
 ```
 
 | Attribute | Description                                      | Example value |
@@ -128,13 +128,13 @@ composer require breuermarcel/bootstrap-components
 ### Container
 
 ```blade
-<x-container fluid>
+<x-bc::container fluid>
     Your content here
-</x-container>
+</x-bc::container>
 
-<x-container size="lg">
+<x-bc::container size="lg">
     Large container content here
-</x-container>
+</x-bc::container>
 ```
 
 | Attribute | Description                                     | Example value                 |
@@ -147,10 +147,10 @@ composer require breuermarcel/bootstrap-components
 ### Dropdown
 
 ```blade
-<x-dropdown label="Menu" icon="list" color="secondary" size="sm">
-    <x-dropdown.item href="#">Action 1</x-dropdown.item>
-    <x-dropdown.item href="#">Action 2</x-dropdown.item>
-</x-dropdown>
+<x-bc::dropdown label="Menu" icon="list" color="secondary" size="sm">
+    <x-bc::dropdown.item href="#">Action 1</x-bc::dropdown.item>
+    <x-bc::dropdown.item href="#">Action 2</x-bc::dropdown.item>
+</x-bc::dropdown>
 ```
 
 | Attribute | Description                                            | Example value                        |
@@ -178,7 +178,7 @@ _Work in progress — coming soon!_
 ### Icon
 
 ```blade
-<x-icon name="check-circle" />
+<x-bc::icon name="check-circle" />
 ```
 
 | Attribute | Description                          | Example value          |
@@ -190,7 +190,7 @@ _Work in progress — coming soon!_
 ### Image
 
 ```blade
-<x-image src="https://via.placeholder.com/600x400" alt="Example image" title="Placeholder" />
+<x-bc::image src="https://via.placeholder.com/600x400" alt="Example image" title="Placeholder" />
 ```
 
 | Attribute | Description                    | Example value                         |
@@ -204,7 +204,7 @@ _Work in progress — coming soon!_
 ### Label
 
 ```blade
-<x-label label="Username" />
+<x-bc::label label="Username" />
 ```
 
 | Attribute | Description                         | Example value |
