@@ -1,14 +1,14 @@
 @props([
     'src' => null,
     'alt' => '',
-    'title' => ''
+    'title' => '',
 ])
 
 @php
     $attributes = $attributes->class(['img-fluid'])->merge([
         'src' => $src,
         'alt' => $alt,
-        'title' => $title
+        'title' => $title,
     ]);
 @endphp
 

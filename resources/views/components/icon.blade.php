@@ -1,15 +1,13 @@
 @props([
-    'name' => null
+    'name' => null,
 ])
 
 @php
-    $attributes = $attributes->class([
-        'bi bi-' . $name
-    ])->merge([
+    $attributes = $attributes->class(['bi bi-' . $name])->merge([
         //
     ]);
 @endphp
 
-@if($name)
+@if ($name)
     <i {{ $attributes }}></i>
 @endif

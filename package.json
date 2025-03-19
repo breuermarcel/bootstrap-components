@@ -18,17 +18,8 @@
     }
   ],
   "license": "MIT",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build"
-  },
-  "dependencies": {},
-  "devDependencies": {
-    "axios": "^1.6.8",
-    "bootstrap": "^5.3.3",
-    "sass": "^1.72.0",
-    "vite": "^5.2.7",
-    "laravel-vite-plugin": "^1.0.2"
+  "dependencies": {
+    "bootstrap": "^5.3.3"
   },
   "type": "module"
 }

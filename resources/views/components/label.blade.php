@@ -3,14 +3,12 @@
 ])
 
 @php
-    $attributes = $attributes->class([
-        'form-label',
-    ])->merge([
+    $attributes = $attributes->class(['form-label'])->merge([
         //
     ]);
 @endphp
 
-@if($label)
+@if ($label)
     <label {{ $attributes }}>
         {{ $label ?? $slot }}
     </label>

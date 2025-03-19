@@ -7,20 +7,17 @@
 ])
 
 @php
-    $attributes = $attributes->class([
-        'btn btn-' . $color,
-        'btn-' . $size => $size,
-        'dropdown-toggle',
-        'border-0 p-0' => $color == 'link',
-    ])->merge([
-        'type' => 'button',
-        'data-bs-toggle' => 'dropdown',
-    ]);
+    $attributes = $attributes
+        ->class(['btn btn-' . $color, 'btn-' . $size => $size, 'dropdown-toggle', 'border-0 p-0' => $color == 'link'])
+        ->merge([
+            'type' => 'button',
+            'data-bs-toggle' => 'dropdown',
+        ]);
 @endphp
 
 <div class="dropdown d-inline-block">
     <button {{ $attributes }}>
-        <x-bc::icon :name="$icon"/>
+        <x-bc::icon :name="$icon" />
 
         {{ $label }}
     </button>

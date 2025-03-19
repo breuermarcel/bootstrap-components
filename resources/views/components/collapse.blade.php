@@ -1,6 +1,6 @@
 @props([
     'id' => null,
-    'button' => ''
+    'button' => '',
 ])
 
 @php
